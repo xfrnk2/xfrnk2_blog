@@ -1,4 +1,4 @@
-title = "My cool new Blog"
+title = "xfrnk2의 개발공부공간"
 baseURL = "https://xfrnk2.github.io"
 theme = "bilberry-hugo-theme"
 
@@ -27,7 +27,7 @@ disqusShortname = "bilberry-hugo-theme"
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "Lednerb"
+  author = "xfrnk2"
   description = "Bilberry Premium Theme for Hugo."
   keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
 
@@ -53,7 +53,7 @@ disqusShortname = "bilberry-hugo-theme"
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Hello World! This is the most epic subtitle ever."
+    subtitle = "development"
 
     # if you want to use gravatar for the header image
     gravatarEMail = "code@lednerb.de"
@@ -117,10 +117,10 @@ disqusShortname = "bilberry-hugo-theme"
     ]
 
     # credits line configuration
-    copyrightBy = "by Lednerb"
-    copyrightUseCurrentYear = false  # set to true to always display the current year in the copyright
-    copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/Lednerb"
+    copyrightBy = "by xfrnk2"
+    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+    copyrightYearOverride = "2020"
+    copyrightUrl = "https://github.com/xfrnk2"
     creditsText = "Bilberry Hugo Theme"
     creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
 
