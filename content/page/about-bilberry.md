@@ -17,7 +17,7 @@ It is full of little nice features, such as:
 - full mutli-language support
 - custom post types (`article`, `audio`, `code`, `gallery`, `link`, `page`, `picture`, `quote`, `video`)
     - easy configuration to add more according to your needs
-
+	
 
 *This Bilberry theme is inspired by the Lingonberry theme from [Anders Norén](http://www.andersnoren.se/teman/lingonberry-wordpress-theme/)*
 

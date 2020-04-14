@@ -1,4 +1,4 @@
-title = "이차원의 개발공부공간"
+title = "무엇이든 만들고픈 초보의 개발공략일기"
 baseURL = "https://xfrnk2.github.io"
 theme = "bilberry-hugo-theme"
 
@@ -53,7 +53,7 @@ disqusShortname = "bilberry-hugo-theme"
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "development"
+    subtitle = "I will be a great programmer"
 
     # if you want to use gravatar for the header image
     gravatarEMail = "code@lednerb.de"
@@ -112,8 +112,7 @@ disqusShortname = "bilberry-hugo-theme"
     # all icons https://fontawesome.com/icons?d=gallery&m=free
     # brand icons https://fontawesome.com/icons?d=gallery&s=brands&m=free
     socialMediaLinks = [
-      { link = "https://twitter.com/TheRealLednerb", icon = "fab fa-twitter" },
-      { link = "https://github.com/Lednerb", icon = "fab fa-github" },
+      { link = "https://github.com/xfrnk2", icon = "fab fa-github" },
     ]
 
     # credits line configuration
