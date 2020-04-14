@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:xfrnk2/xfrnk2.github.io.git
+	branch = master
