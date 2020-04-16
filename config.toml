@@ -40,7 +40,7 @@ disqusShortname = "xfrnk2-github-io"
   # Enable / Disable algolia search
   algolia_search    = true
   algolia_appId     = "I0Z2TR6HM6"
-  algolia_apiKey    = "a938aa01fc874176fe4d588fdba5b5ba"
+  algolia_apiKey    = "4410ee8dad13ebf30c6a7f79c45b16a9"
   algolia_indexName = "default-content"
     # Set this option to false if you want to search within all articles in all languages at once
     algolia_currentLanguageOnly = true
