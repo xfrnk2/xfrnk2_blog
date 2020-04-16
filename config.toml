@@ -53,7 +53,7 @@ disqusShortname = "xfrnk2-github-io"
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Do"
+    subtitle = "Archive"
 
     # if you want to use gravatar for the header image
     gravatarEMail = "code@lednerb.de"
