@@ -1,4 +1,4 @@
-title = "Rad"
+title = "Rad Blog"
 baseURL = "https://xfrnk2.github.io"
 theme = "bilberry-hugo-theme"
 
@@ -23,7 +23,7 @@ disqusShortname = "xfrnk2-github-io"
   # Files are relative to the static/ directory or a URL.
   # Files are imported in the order they appear here, after
   # theme.css and theme.js, respectively.
-  css_modules = ['theme4.css']
+  css_modules = ['wwr.css']
   js_modules = []
 
   # Description and meta data for the search engines
@@ -39,9 +39,9 @@ disqusShortname = "xfrnk2-github-io"
 
   # Enable / Disable algolia search
   algolia_search    = true
-  algolia_appId     = "I0Z2TR6HM6"
-  algolia_apiKey    = "4410ee8dad13ebf30c6a7f79c45b16a9"
-  algolia_indexName = "default-content"
+  algolia_appId     = "4ML69MKPKO"
+  algolia_apiKey    = "568ba12efff051120f3587e1d297c4cd"
+  algolia_indexName = "xfrnk2"
     # Set this option to false if you want to search within all articles in all languages at once
     algolia_currentLanguageOnly = true
 
@@ -53,7 +53,7 @@ disqusShortname = "xfrnk2-github-io"
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "개발, 매 순간을 오롯이"
+    subtitle = "Do"
 
     # if you want to use gravatar for the header image
     gravatarEMail = "code@lednerb.de"
