@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 
-categories: ['TIL']
-tags: ['TIL']
+categories: ['todayilearned']
+tags: ['todayilearned']
 author: "xfrnk2"
 ---
