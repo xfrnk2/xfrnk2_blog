@@ -7,6 +7,8 @@ categories: ['Django']
 tags: ['Django', 'Admin', 'Python']
 author: "xfrnk2"
 ---
+>이진석 선생님의 [리액트와 함께 장고 시작하기](https://educast.com/course/web/ZU53) 수강중 정리한 글입니다.
+---
 ### 1. Django의 Admin 기능
 + 관리자 페이지, 강력한 자동 관리 인터페이스
 + 모델 중심의 빠른 인터페이스를 제공   
@@ -97,8 +99,7 @@ Post.objects.all().filter(title__icontains='포함하는 글자')
 + search_field = ['title']의 경우, 'title'에 대해서 search 옵션을 적용하겠다는 의미.
 
 ---
-###### 더 많은 기능에 대한 정보는 공식문서를 참고.
-https://docs.djangoproject.com/en/3.0/ref/contrib/admin/
-
++ ###### 더 많은 기능에 대한 정보는 공식문서를 참고. (https://docs.djangoproject.com/en/3.0/ref/contrib/admin/)
+---
 
 
