@@ -120,7 +120,7 @@ UUID('2456b825-1e40-4da5-a8a8-114afb1b2ec4')
 + 개발 편의성 목적으로 직접 서빙 Rule 추가 가능
 ~~~
 from django.conf import settings
-from django.conf.urls.static iport static
+from django.conf.urls.static import static
 # 중략
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ~~~
@@ -133,7 +133,7 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 + 디스크에 담겨 전달
 + TemporaryFileUploadHandler
 ###### 관련 설정
-+ setting.FILE_UPOLAD_MAX_MEMORY_SIZE
++ settings.FILE_UPOLAD_MAX_MEMORY_SIZE
 + -> 2.5MB
 ---
 ### 기타 팁
