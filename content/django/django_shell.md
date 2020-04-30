@@ -12,8 +12,7 @@ author: "xfrnk2"
 ### Shell
   
 + Ipython : 기본 패키지에 포함되지 않음, 별도의 설치가 필요
-+ Jupyter Notebook : Ipython의 웹버전, 웹상에서 코드가 동작
-+ 이미지, 차트 등 활용이 가능, 분석 또는 머신러닝에서 사용
++ Jupyter Notebook : Ipython의 웹버전, 웹상에서 코드가 동작, 이미지와 차트 등이 활용 가능, 분석 또는 머신러닝에서 사용
 + BPython
   
 ---
