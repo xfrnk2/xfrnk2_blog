@@ -25,9 +25,9 @@ author: "xfrnk2"
 ### Media 파일 처리 순서 
   
 1. HttpRequest.FILES를 통해 파일이 전달
-2. 뷰 로직이나 폼 로직을 통해, 유효성 검증을 수행하고,  
-3. FileFIeld/ImageField 필드에 "경로(문자열)"를 저장하고,
-4. setings.MEDIA_ROOT 경로에 파일을 저장합니다.
+2. 뷰 로직이나 폼 로직을 통해, 유효성 검증을 수행
+3. FileFIeld/ImageField 필드에 "경로(문자열)"를 저장
+4. setings.MEDIA_ROOT 경로에 파일을 저장
   
 ###### 코드 예시
   
@@ -46,7 +46,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, '..', 'public', 'media')
 ### ImageField (File Field 상속)
   
 + Image Field 는 Pillow 이미지 처리 라이브러리 설치를 통해 width와 height 획득
-+ 미설치시 ImageField를 추가한 makemigrations 수행에 실패함.
++ 미설치시 ImageField를 추가한 makemigrations 수행에 실패
 + 빈 경로 처리여부 : blank=True의 디폴트 설정은 false
 ###### 위 필드를 상속 받은 커스텀 필드를 만들 수 있다.
 ---
@@ -67,7 +67,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, '..', 'public', 'media')
 + 함수로 지정 : "중간 디렉토리 경로" 및 "파일명"까지 결정 가능
 ---
 ### 파일 저장 경로 / 커스텀 upload_to 옵션
-한 디렉토리에 파일을 너무 많이 몰아둘 경우, OS 파일찾기 성능 저하. 디렉토리 Depth가 깊어지는 것은 성능에 큰 영향 없음. 필드 별로, 다른 디렉토리 저장경로를 가지기
+한 디렉토리에 파일을 너무 많이 몰아둘 경우, OS 파일찾기 성능 저하. 디렉토리 Depth가 깊어지는 것은 성능에 큰 영향 없음. 필드 별로, 다른 디렉토리 저장경로를 가질 것을 권장
   
   
 ###### 대책 1) 필드 별로 다른 디렉토리에 저장
@@ -143,8 +143,8 @@ if settings.DEBUG:
     urlpatterns += static.static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ~~~
 + 파일을 읽어서 응답을 주기 위한 방법 (urls.py)
-+ 장고는 미디어 파일등의 스테틱 파일의 서빙을 실제 프로덕션에서 하는 것을 권장하지 않는다.
-+ 만약 if 문을 한 줄 없앤다 해도 빈 리스트를 반환하게 되지만, 명시적으로 사용하기 위해서 if문을 사용한다. 
++ 장고는 미디어 파일등의 스테틱 파일의 서빙을 실제 프로덕션에서 하는 것을 권장하지 않음
++ 만약 if 문을 한 줄 없앤다 해도 빈 리스트를 반환하게 되지만, 명시적으로 사용하기 위해서 if문을 사용
 
 ###### ㅇ mark_safe()
 + url로 표시되는것은 django의 feature
@@ -163,7 +163,7 @@ if settings.DEBUG:
 
 ###### ㅇ settings의 import
 >settings는 기본적으로 django.conf의 global_settings와, 현재 프로젝트의 settings가 합쳐져야 되므로
->from django.conf import 현 프로젝트의 settings인 settings 로 하면 합쳐진다. 오버라이팅.
+>from django.conf import 현 프로젝트의 settings인 settings 로 하면 합쳐짐(오버라이팅)
 ~~~
 # from django.conf import global_settings
 # from django_tech import settings
