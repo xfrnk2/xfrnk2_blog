@@ -7,6 +7,8 @@ categories: ['Django']
 tags: ['Django', 'Model']
 author: "xfrnk2"
 ---
+>이진석 선생님의 [리액트와 함께 장고 시작하기](https://educast.com/course/web/ZU53) 수강중 정리한 글입니다.
+---
 ### Model Manager
 SELECT * FROM app_model;
 ~~~
@@ -93,7 +95,7 @@ qs = qs.filter(cond)
 필드명__icontains = 조건값 | 필드명 ILIKE "%조건값%"
 ---
 ### 메모
-###### 아래와 같은 형식으로도 사용이 가능하니 알아두기
+###### 아래와 같은 형식으로도 사용이 가능하니 알아두자
 ~~~
 for post in qs:
 print("id : {id}, message : {message} ({created_at})".format(**post.__dict__)) 
