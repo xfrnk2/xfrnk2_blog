@@ -1,5 +1,5 @@
 ---
-title: "모델을 통한 조회 (기초)"
+title: "Django Model을 통한 조회 (기초)"
 date: 2020-04-30T11:59:38+09:00
 draft: false
 

@@ -1,5 +1,5 @@
 ---
-title: "장고 쉘"
+title: "Django Shell"
 date: 2020-04-29T14:27:36+09:00
 draft: false
 
