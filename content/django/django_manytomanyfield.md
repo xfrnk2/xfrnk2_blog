@@ -7,6 +7,9 @@ categories: ['Django']
 tags: ['Model']
 author: "xfrnk2"
 ---
+>이진석 선생님의 [리액트와 함께 장고 시작하기](https://educast.com/course/web/ZU53) 수강중 정리한 글입니다.
+---
+
 ### ManyToManyField
 ###### M : N 관계에서 어느쪽이라도 필드 지정 가능
 ###### ManyToManyField(to, blank=Flase) 
