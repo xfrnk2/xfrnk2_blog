@@ -31,21 +31,21 @@ author: "xfrnk2"
 ~~~
 ---
 ### Migration File
-> 의도에 맞게 Migration 파일이 생성되었는지 확인하는 것이 무엇보다 중요
+
 
 ###### 기능
-+ Migration File은 모델의 변경내역을 누적하는 역할
-+ 데이터베이스에 어떤 변화를 가하는 Operation들을 나열
++ 모델의 변경내역을 누적
 + 테이블 생성/삭제, 필드 추가/삭제 등
++ 데이터베이스에 어떤 변화를 가하는 Operation들을 나열
 + Custom Python/SQL Operation (data migration 등)
-+ makemigrations 명령에 의해 모데로부터 자동 생성
++ makemigrations 명령에 의해 모델로부터 자동 생성
 + 모델 참조 없이 빈 Migration File을 만들어서 직접 채워 넣는 것도 가능
 
 ###### 주의할 점
 + 같은 Migration 파일이라도 DB 종류에 따라 다른 SQL이 생성됨
 + 모든 데이터 베이스 엔진들이 같은 기능을 제공하지는 않음
 + **적용된 마이그레이션 파일은 절대로 삭제해서는 안됨** 
-
+> 의도에 맞게 Migration 파일이 생성되었는지 확인하는 것이 무엇보다 중요
 ---
 ### makemigrations의 타이밍
 
@@ -110,7 +110,7 @@ Migration 파일의 dependencies에 따라서 정의되는 형태
 from django.db iport migrations, models
 class Migration(migration.Migration):
   dependencies = [
- ('shop, '0001_initial'),
+ ('account, '0001_initial'),
 ]
 operations = [
 ...
