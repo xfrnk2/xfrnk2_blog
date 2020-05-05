@@ -4,7 +4,7 @@ date: 2020-05-05T14:14:58+09:00
 draft: false
 
 categories: ['Django']
-tags: ['Django', 'Migration']
+tags: ['Django', 'Migration', 'Migrate']
 author: "xfrnk2"
 ---
 >이진석 선생님의 [리액트와 함께 장고 시작하기](https://educast.com/course/web/ZU53) 수강중 정리한 글입니다.
