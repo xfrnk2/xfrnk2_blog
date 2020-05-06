@@ -74,7 +74,7 @@ comment.post
 ### 코멘트 리스트 가져오기
 ###### 모두 같은 결과를 도출
 ~~~
-Comment.objects.filter(post__id=4) #직접적인 필드
+Comment.objects.filter(post_id=4) #직접적인 필드
 Comment.objects.filter(post__id=4) #post 측에 있는, 관계에 있는 id
 ~~~
 ~~~

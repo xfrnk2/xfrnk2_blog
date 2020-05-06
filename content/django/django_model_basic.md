@@ -4,7 +4,7 @@ date: 2020-04-30T11:59:38+09:00
 draft: false
 
 categories: ['Django']
-tags: ['Django', 'Model']
+tags: ['Django', 'Model', 'Queryset']
 author: "xfrnk2"
 ---
 >이진석 선생님의 [리액트와 함께 장고 시작하기](https://educast.com/course/web/ZU53) 수강중 정리한 글입니다.
