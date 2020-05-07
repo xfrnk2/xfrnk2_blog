@@ -35,7 +35,7 @@ author: "xfrnk2"
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, '..', 'public', 'media')
 ~~~
-> MEDIA_ROOT의 경우, 상위 디렉토리(..)의 public/media에 저장
+> 예) MEDIA_ROOT의 경우, 상위 디렉토리(..)의 public/media에 저장
 ---
 ### File Field
   
