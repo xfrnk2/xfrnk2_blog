@@ -101,5 +101,5 @@ Post.objects.all().filter(title__icontains='포함하는 글자')
 ---
 + ###### 더 많은 기능에 대한 정보는 공식문서를 참고. (https://docs.djangoproject.com/en/3.0/ref/contrib/admin/)
 ---
-
-
+![test_image_desu](featuredImage.png)
+![test_image_desu](test_image.png)
