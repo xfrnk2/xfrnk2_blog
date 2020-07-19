@@ -3,8 +3,8 @@ title: "정렬 알고리즘 - 선택 정렬(Selection Sort)"
 date: 2020-07-14T15:55:01+09:00
 draft: False
 
-categories: ['TIL']
-tags: ['TIL']
+categories: ['Algorithm']
+tags: ['Sorting']
 author: "xfrnk2"
 ---
 *선택정렬의 원리와 특징 및 성능에 대해서 정리하는 글이다.*
