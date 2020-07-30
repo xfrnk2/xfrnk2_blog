@@ -7,7 +7,7 @@ categories: ['수습한 삽질기록']
 tags: ['삽질']
 author: "xfrnk2"
 ---
-&nbsp;Travis-ci에서 Linux와 Windows의 activate.bat 파일의 위치가 다른 것을 판단하여 각 운영체제에 맞는 경로의 activate.bat 파일을 실행 할 수 있도록 Makefile을 수정했던 것을 착안해서,  이번에는 Docker에서 Dockerfile을 작성 할 때 마찬가지로 python의 경로를 다르게 할 수 있지 않을까? 하는 생각이 들었다.   
+&nbsp;Travis-ci에서 python venv 실행시 Linux와 Windows의 activate.bat 파일의 위치가 다른 것을 판단하여 각 운영체제에 맞는 경로의 activate.bat 파일을 실행 할 수 있도록 Makefile을 수정했던 것을 착안해서,  이번에는 Docker에서 Dockerfile을 작성 할 때 마찬가지로 python의 경로를 다르게 할 수 있지 않을까? 하는 생각이 들었다.   
   
 &nbsp;Windows는 나의 지정 경로에 python이 설치 되어 있었고, 내가 사용하지 않는 Linux에서는 python의 설치된 경로가 'usr/local/python' 인 것으로 알게 되었기 때문이다. 그래서 환경 변수를 dockerfile에서 어떻게 다루는가에 대해 알아보게 됬는데...  
 
