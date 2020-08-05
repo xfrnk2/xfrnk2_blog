@@ -73,7 +73,7 @@ CREATE database (db_name);
 SHOW databases;
 ~~~
 ▶ 위의 커맨드로 생성여부를 확인 가능
-  
+   
 ---
   
 ### 5. Django container 생성
