@@ -33,7 +33,7 @@ caching_sha2_password 에서
 ~~~
 default_authentication_plugin=mysql_native_password
 ~~~
-mysql_native_password 으로 변경 후 저장
+mysql_native_password 으로 변경 후 저장  
   
 ---
   
