@@ -13,7 +13,7 @@ author: "xfrnk2"
 ▶ Docker Dashboard의 container를 보면 왼쪽에서 두번째 위치에 CLI 버튼이 있다. 위에 마우스를 가져다 대고 있으면 CLI라는 표시가 보인다.  
   
 ▶ CLI 아이콘 클릭시 우측과 같은 창이 뜨게 되는데, 아래와 같이 커맨드를 입력한다.
-  
+   
 ~~~
 mysql -u root -p
 ~~~
