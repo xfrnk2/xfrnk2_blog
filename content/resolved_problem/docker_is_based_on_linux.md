@@ -3,8 +3,8 @@ title: "Docker를 Windows와 Linux에서 사용할때 각각 다른게 있을까
 date: 2020-07-29T23:45:21+09:00
 draft: false
 
-categories: ['수습한 삽질기록']
-tags: ['삽질']
+categories: ['resolved problem']
+tags: ['resolved problem']
 author: "xfrnk2"
 ---
 &nbsp;Travis-ci에서 python venv 실행시 Linux와 Windows의 activate.bat 파일의 위치가 다른 것을 판단하여 각 운영체제에 맞는 경로의 activate.bat 파일을 실행 할 수 있도록 Makefile을 수정했던 것을 착안해서,  이번에는 Docker에서 Dockerfile을 작성 할 때 마찬가지로 python의 경로를 다르게 할 수 있지 않을까? 하는 생각이 들었다.   
