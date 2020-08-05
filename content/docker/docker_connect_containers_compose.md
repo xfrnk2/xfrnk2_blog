@@ -53,7 +53,7 @@ services:
         restart: always
         environment:
             MYSQL_DATABASE: rad_db
-            MYSQL_ROOT_PASSWORD: password
+            MYSQL_ROOT_PASSWORD: password 
         ports:
           - "3306:3306"
             
