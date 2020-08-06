@@ -123,4 +123,4 @@ DATABASES = {
 
 
  
-> ["[Docker]컨테이너 내 Mysql서버에 접근하는 방법" 바로가기 -- link](http://xfrnk2.github.io/docker/docker_connect_containers_compose/)
+> ["[Docker]컨테이너 내 Mysql서버에 접근하는 방법" 바로가기 -- link](http://xfrnk2.github.io/docker/docker_how_to_connect_to_mysql_in_container/)
