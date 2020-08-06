@@ -63,7 +63,7 @@ https://ondemand.tistory.com/246
   
   
 ### 4. 실행중인 mysql container에 접속하여 db 생성  
-> ["[Docker]컨테이너 내 Mysql서버에 접근하는 방법" 바로가기 -- link](http://xfrnk2.github.io/docker/docker_connect_containers_compose/)
+> ["[Docker]컨테이너 내 Mysql서버에 접근하는 방법" 바로가기 -- link](http://xfrnk2.github.io/docker/docker_how_to_connect_to_mysql_in_container/)
 
 ~~~
 CREATE database (db_name);
