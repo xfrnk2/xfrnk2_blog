@@ -4,7 +4,7 @@ date: 2020-08-05T10:36:16+09:00
 draft: false
 
 categories: ['mysql']
-tags: ['database', 'mysql']
+tags: ['database', 'mysql', 'Error']
 author: "xfrnk2"
 ---
 
