@@ -3,8 +3,8 @@ title: "서버 사이드 렌더링(Server Side Rendering: SSR) & 클라이언트
 date: 2020-09-26T00:54:03+09:00
 draft: false
 
-categories: ['TIL']
-tags: ['TIL']
+categories: ['web']
+tags: ['web', 'rendering']
 author: "xfrnk2"
 ---
 > 최근 용어 '서버 사이드 렌더링(Server Side Rendering)'을 알게 되었는데, 리액트를 공부하며 배우게 된 SPA방식과 관계가 있다고 생각했다.
