@@ -66,3 +66,19 @@ function solution(numbers) {
 + 12 기준 합계 : 189 + 783
    
 각각의 합계를 더해서 내림차순으로 정렬하면 9, 3, 12순서이기 때문에 9312가 된다.
+
+
+###### 위의 자바스크립트 풀이와 같은 방식으로 푼 파이썬 코드(2020-11-11)
+~~~
+from functools import cmp_to_key
+
+def solution(numbers):
+    answer = ''.join(sorted(map(str, numbers), key=cmp_to_key(lambda x, y:int(y+x)-int(x+y))))
+    return answer if int(answer) else '0'
+~~~
+
+**위의 cmp_to_key 안의 lambda 함수는 아래의 함수와 같다**
+~~~
+def ascending_order(x, y):
+    return int(y+x) - int(x+y)
+~~~
