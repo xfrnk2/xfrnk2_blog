@@ -32,6 +32,7 @@ author: "xfrnk2"
 >  Calling preventDefault() during any stage of event flow cancels the event, meaning that any default action normally taken by the implementation as a result of the event will not occur.
 - 보고 배운 사이트 
 > https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/
+- 결과적으로 이벤트가 겹치지 않는 형태로 짜는 편이 더 이상적일 것이라는 생각이 들었다.
 ---
 ### 추가 사항
 + 탐색 순서가 bottom to top(내부->외부) / 탐색 순서가 top to bottom(외부->내부)
