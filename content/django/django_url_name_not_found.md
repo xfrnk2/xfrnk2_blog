@@ -3,8 +3,8 @@ title: "Django - NoReverseMatch 에러, Reverse not found 해결방법"
 date: 2021-06-04T01:44:11+09:00
 draft: false
 
-categories: ['TIL']
-tags: ['TIL']
+categories: ['Django']
+tags: ['Django']
 author: "xfrnk2"
 ---
 #### Error
