@@ -1,6 +1,6 @@
 ---
 title: "github blog, hugo sitemap couldn't fetch error / 깃허브 블로그, 휴고 사이트맵 가져올수 없음 에러"
-date: 2021-06-16T02:02:16+09:00
+date: 2021-06-16T00:02:16+09:00
 draft: false
 
 categories: ['blog']
